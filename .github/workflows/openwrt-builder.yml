@@ -50,7 +50,6 @@ jobs:
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
         sudo chmod 777 /mnt
-        df -Th
         
         
     - name: Clone source code
